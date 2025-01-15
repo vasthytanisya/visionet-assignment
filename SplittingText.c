@@ -27,6 +27,8 @@ int main()
             printf("%c", text[i]);
         }
 
+        printf("%c", text[halfLength]);
+        
         for (int j = strlen(text) - 1; j > halfLength; j--)
         {
             printf("%c", text[j]);
